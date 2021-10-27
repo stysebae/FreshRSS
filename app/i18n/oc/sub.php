@@ -1,7 +1,6 @@
 <?php
 
 return array(
-	'add' => 'La creacion de flux e categoria es desplaçada <a href=\'%s\'>aquí</a>. I avètz tanben accès del menú a man esquèrra e de l’icòna ✚ sus la pagina principala.',
 	'api' => array(
 		'documentation' => 'Copiatz l’URL seguenta per l’utilizaire dins d’una aisina extèrna.',
 		'title' => 'API',
@@ -13,6 +12,7 @@ return array(
 	),
 	'category' => array(
 		'_' => 'Categoria',
+		'add' => 'Ajustar categoria',
 		'archiving' => 'Archivar',
 		'empty' => 'Categoria voida',
 		'information' => 'Informacions',
@@ -89,11 +89,11 @@ return array(
 		'title_add' => 'Ajustar un flux RSS',
 		'ttl' => 'Actualizar pas automaticament mai sovent que',
 		'url' => 'Flux URL',
-		'useragent' => 'Set the user agent for fetching this feed',	// TODO - Translation
-		'useragent_help' => 'Example: <kbd>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:86.0)</kbd>',	// TODO - Translation
+		'useragent' => 'Definir un user agent per recuperar aqueste flux',
+		'useragent_help' => 'Exemple : <kbd>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:86.0)</kbd>',
 		'validator' => 'Verificar la validitat del flux',
 		'website' => 'URL del site',
-		'websub' => 'Notificaciones instantáneas amb WebSub',
+		'websub' => 'Notificacions instantanèas amb WebSub',
 	),
 	'import_export' => array(
 		'export' => 'Exportar',
@@ -132,7 +132,7 @@ return array(
 		'add_label' => 'Ajustar una etiqueta',
 		'delete_label' => 'Suprimir una etiqueta',
 		'feed_management' => 'Gestion dels fluxes RSS',
-		'rename_label' => 'Rennomenar una etiqueta',
+		'rename_label' => 'Renomenar una etiqueta',
 		'subscription_tools' => 'Aisinas d’abonament',
 	),
 );
